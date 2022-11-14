@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { AiFillHome } from "react-icons/ai"
 import { RiHospitalLine } from "react-icons/ri"
 import { GiHospitalCross } from "react-icons/gi"
-import { FaHospitalUser, FaHospitalAlt } from "react-icons/fa"
+import { FaHospitalUser, FaHospitalAlt, FaHospitalSymbol } from "react-icons/fa"
 import { Link } from 'react-router-dom'
 
 const sidebarInfo = [
@@ -26,12 +26,18 @@ const sidebarInfo = [
     },
     {
         id: 3,
+        name: "TTYo",
+        icon: <FaHospitalSymbol />,
+        link: 'ttyo'
+    },
+    {
+        id: 4,
         name: "KVP",
         icon: <FaHospitalUser />,
         link: 'kvp'
     },
     {
-        id: 4,
+        id: 5,
         name: "Tug'riqxona",
         icon: <FaHospitalAlt />,
         link: 'tugriqxona'

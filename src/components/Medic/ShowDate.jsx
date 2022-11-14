@@ -32,6 +32,11 @@ const routesArr = [
         element: <Table malumot={shifoxona} />,
         id: false
     },
+    {
+        path: 'ttyo',
+        element: <Table malumot={main} />,
+        id: false
+    },
 ]
 
 const ShowDate = () => {
