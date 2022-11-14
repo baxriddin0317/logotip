@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "familya": "Axmadaliyev",
+        "ism": "Baxriddin",
+        "yoshi": "20 yosh",
+        "yashash manzil": "Andijon",
+        "kasallik turi": "shamollash",
+        "OITS": "yoq",
+        "OIV": "yoq",
+        "Sariq": "ha",
+        "doimiy kassaligi": "yoq",
+        "alergiya": "yoq" 
+    },
+    {
+        "id": 2,
+        "familya": "Salimova",
+        "ism": "Shaxlo",
+        "yoshi": "22 yosh",
+        "yashash manzil": "Farg'ona",
+        "kasallik turi": "shamollash",
+        "OITS": "yoq",
+        "OIV": "yoq",
+        "Sariq": "ha",
+        "doimiy kassaligi": "yoq",
+        "alergiya": "yoq" 
+    },
+    {
+        "id": 3,
+        "familya": "Raximberdiyev",
+        "ism": "Axror",
+        "yoshi": "24 yosh",
+        "yashash manzil": "Andijon",
+        "kasallik turi": "shamollash",
+        "OITS": "yoq",
+        "OIV": "yoq",
+        "Sariq": "ha",
+        "doimiy kassaligi": "yoq",
+        "alergiya": "yoq" 
+    },
+    {
+        "id": 4,
+        "familya": "Abdusamatov",
+        "ism": "Asliddin",
+        "yoshi": "23 yosh",
+        "yashash manzil": "Andijon",
+        "kasallik turi": "shamollash",
+        "OITS": "yoq",
+        "OIV": "yoq",
+        "Sariq": "ha",
+        "doimiy kassaligi": "yoq",
+        "alergiya": "yoq" 
+    }
+]

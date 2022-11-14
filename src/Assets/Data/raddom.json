@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "1-sonli tug'riqxona",
+        "manzil": "jalaquduq",
+        "xodimlar soni": "20 nafar",
+        "bo'limlar soni": "10 xil yo'nalish"
+    },
+    {
+        "id": 2,
+        "name": "2-sonli tug'riqxona",
+        "manzil": "jalaquduq",
+        "xodimlar soni": "40 nafar",
+        "bo'limlar soni": "30 xil yo'nalish"
+    },
+    {
+        "id": 3,
+        "name": "1-sonli tug'riqxona",
+        "manzil": "jalaquduq",
+        "xodimlar soni": "25 nafar",
+        "bo'limlar soni": "20 xil yo'nalish"
+    },
+    {
+        "id": 4,
+        "name": "3-sonli tug'riqxona",
+        "manzil": "jalaquduq",
+        "xodimlar soni": "30 nafar",
+        "bo'limlar soni": "10 xil yo'nalish"
+    }
+]

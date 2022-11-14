@@ -1,24 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import AppLayout from "./components/Layouts/AppLayout";
+import { Route, Routes} from "react-router-dom"
+import HomePage from "./components/Home";
+import MedicPage from "./components/Medic";
+import MainSektor from "./pages/sektors/main";
+
+const menuArr = [
+  {
+    id: 1,
+    path: "/hokim",
+    element: <MainSektor type="hokim" />
+  },
+  {
+    id: 2,
+    path: "/prokror",
+    element: <MainSektor type="prokror" />
+  },
+  {
+    id: 3,
+    path: "/viloyat",
+    element: <MainSektor type="viloyat" />
+  },
+  {
+    id: 4,
+    path: "/tibbiyot/*",
+    element: <MedicPage />
+  },
+]
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppLayout>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        {menuArr.map(item => (
+          <Route key={item.id} path={item.path} element={item.element} />
+        ))}
+      </Routes>
+
+    </AppLayout>
   );
 }
 
