@@ -4,6 +4,7 @@ import HomePage from "./components/Home";
 import MedicPage from "./components/Medic";
 import MainSektor from "./pages/sektors/main";
 import { StorieInsighte } from "./components/StoriesInsighte";
+import Newsletter from "./components/Layouts/Newsletter";
 
 const menuArr = [
   {
@@ -38,6 +39,7 @@ function App() {
         ))}
       </Routes>
       <StorieInsighte />
+      <Newsletter />
     </AppLayout>
   );
 }
