@@ -14,7 +14,7 @@ const HomeCard = () => {
                 </p>
             </div>
 
-            <div className="grid grid-cols-4 gap-10">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
                 <div className='pl-10 p-11 bg-white rounded-2.5xl shadow-card'>
                     <img className='mb-5 h-24 ' src={require('../../Assets/Image/sektor1.png')} alt="" />
                     <h2 className='font-bold capitalize text-2xl mb-1'>

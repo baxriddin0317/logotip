@@ -4,8 +4,8 @@ const HomeBanner = () => {
   return (
     <div className='py-28'>
         <div className='container mx-auto px-7'>
-            <div className='flex items-center gap-20 justify-between'>
-                <div className='w-[450px]'>
+            <div className='flex items-center flex-col-reverse md:flex-row gap-20 justify-between'>
+                <div className='md:w-[450px]'>
                     <h2 className='font-bold text-5xl mb-6'>
                         Virtual healthcare 
                         for you

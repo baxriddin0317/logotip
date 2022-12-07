@@ -3,6 +3,7 @@ import { Route, Routes} from "react-router-dom"
 import HomePage from "./components/Home";
 import MedicPage from "./components/Medic";
 import MainSektor from "./pages/sektors/main";
+import { StorieInsighte } from "./components/StoriesInsighte";
 
 const menuArr = [
   {
@@ -36,7 +37,7 @@ function App() {
           <Route key={item.id} path={item.path} element={item.element} />
         ))}
       </Routes>
-
+      <StorieInsighte />
     </AppLayout>
   );
 }
